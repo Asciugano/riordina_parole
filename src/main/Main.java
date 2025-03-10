@@ -1,6 +1,7 @@
 package main;
 
 import view.Frame;
+import view.Risultati;
 
 public class Main {
 
@@ -18,7 +19,7 @@ public class Main {
             new Frame();
         }
         else
-            System.out.println("partita finita " + punteggio);
+            new Risultati();
     }
 
 }
