@@ -18,8 +18,13 @@ public class Frame extends JFrame {
         setLayout(new BorderLayout());
 
         buttonPanel = new ButtonPanel(this);
-        soluzione = new JLabel("Soluzione");
+        soluzione = new JLabel(Main.parola);
         gamePanel = new GamePanel(Main.img, Main.parola);
+
+        soluzione.setHorizontalAlignment(SwingConstants.CENTER);
+        soluzione.setPreferredSize(new Dimension(50, 50));
+        Font f = soluzione.getFont();
+        soluzione.setFont(new Font(f.getName(), f.getStyle(), 17));
 
         changeSoluzione();
 
