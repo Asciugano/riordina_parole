@@ -3,6 +3,8 @@ package main;
 import view.Frame;
 import view.Risultati;
 
+import javax.swing.*;
+
 public class Main {
 
     public static int punteggio = 0;
@@ -13,21 +15,20 @@ public class Main {
     public static String img = null;
 
     public static void main(String[] args) {
-//        Reader r = new Reader();
-//        r.Leggi();
-        parola = "prova";
+        new Reader();
         new Frame();
     }
 
     public static void nuovoRound(String p) {
 
         if(checkParola(p))
-            System.out.println("Giusta");
+            JOptionPane.showMessageDialog(null, "Giusto");
         else
-            System.out.println("sbagliata");
+            JOptionPane.showMessageDialog(null, "Sbagliato\nparola corretta: " + parola);
 
         if(round < max_round) {
             punteggio++;
+            new Reader();
             new Frame();
         }
         else

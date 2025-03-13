@@ -1,8 +1,6 @@
 package main;
 
-import javax.swing.*;
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Random;
@@ -16,7 +14,9 @@ public class Reader {
 
     public Reader() {
         try {
-            br = new BufferedReader(new FileReader(path + "source"));
+            br = new BufferedReader(new FileReader(path + "source.txt"));
+            Leggi();
+            br.close();
         }
         catch (Exception e) {
             System.out.println(e.getMessage());
@@ -37,7 +37,7 @@ public class Reader {
         String temp = "";
         if(br == null)
             return null;
-        for(int i = 1; i < 149; i++) {
+        for(int i = 1; i <= 149; i++) {
             temp = br.readLine();
             if(i == lineNum)
                 break;
