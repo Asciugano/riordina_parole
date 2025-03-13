@@ -7,6 +7,8 @@ import javax.swing.*;
 
 public class Main {
 
+    private static Frame frame;
+
     public static int punteggio = 0;
     public static int round = 0;
     public static int max_round = 10;
@@ -16,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) {
         new Reader();
-        new Frame();
+        frame = new Frame();
     }
 
     public static void nuovoRound(String p) {
@@ -29,7 +31,8 @@ public class Main {
         if(round < max_round) {
             punteggio++;
             new Reader();
-            new Frame();
+            frame.dispose();
+            frame = new Frame();
         }
         else
             new Risultati();
