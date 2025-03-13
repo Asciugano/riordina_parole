@@ -10,8 +10,10 @@ import java.util.Collections;
 
 public class Parola extends JPanel implements ActionListener {
 
-    private ArrayList<JButton> arrParola;
+    private static ArrayList<JButton> arrParola;
     private String parola;
+
+    public static JButton lastButton = null;
 
     public Parola(String parola) {
         setLayout(new GridLayout(1, parola.length()));
@@ -45,6 +47,21 @@ public class Parola extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-        //TODO
+        if(lastButton == null) {
+            lastButton = (JButton) actionEvent.getSource();
+            for (JButton b : arrParola)
+                if (b == actionEvent.getSource()) {
+                    b.setEnabled(false);
+                    b.setBackground(Color.gray);
+                }
+        }
+    }
+
+    public static void rmButton() {
+        for(JButton b : arrParola)
+            if(b == lastButton) {
+//                arrParola.remove(b);
+                lastButton = null;
+            }
     }
 }

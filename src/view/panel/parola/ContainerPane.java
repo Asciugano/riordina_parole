@@ -1,5 +1,7 @@
 package view.panel.parola;
 
+import main.Main;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -10,6 +12,8 @@ public class ContainerPane extends JPanel implements ActionListener {
 
     private ArrayList<JButton> container;
     private int len;
+
+    public static String parola = "";
 
     public ContainerPane(int len) {
         setLayout(new GridLayout(1, len));
@@ -32,6 +36,25 @@ public class ContainerPane extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-        //TODO
+        for(JButton b : container)
+            if(b == actionEvent.getSource()) {
+                if(b.getText().equals(" ")) {
+                    b.setText(Parola.lastButton.getText());
+                    Parola.rmButton();
+                    checkParola();
+                }
+            }
     }
+
+    private void checkParola() {
+        for(JButton b : container) {
+            parola += b.getText();
+            if (b.getText().equals(" ")) {
+                parola = "";
+                return;
+            }
+        }
+        Main.nuovoRound(parola);
+    }
+
 }

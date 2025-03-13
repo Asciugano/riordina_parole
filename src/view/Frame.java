@@ -19,7 +19,7 @@ public class Frame extends JFrame {
 
         buttonPanel = new ButtonPanel(this);
         soluzione = new JLabel("Soluzione");
-        gamePanel = new GamePanel(null, "prova");
+        gamePanel = new GamePanel(Main.img, Main.parola);
 
         changeSoluzione();
 
