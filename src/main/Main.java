@@ -9,33 +9,40 @@ public class Main {
 
     private static Frame frame;
 
-    public static int punteggio = 0;
-    public static int round = 0;
-    public static int max_round = 10;
+    public static int punteggio;
+    public static int round;
+    public static int max_round;
 
     public static String parola;
     public static String img = null;
 
     public static void main(String[] args) {
+        punteggio = 0;
+        round = 1;
+        max_round = 3;
         new Reader();
         frame = new Frame();
     }
 
     public static void nuovoRound(String p) {
 
-        if(checkParola(p))
+        if(checkParola(p)) {
+            punteggio++;
             JOptionPane.showMessageDialog(null, "Giusto");
+        }
         else
             JOptionPane.showMessageDialog(null, "Sbagliato\nparola corretta: " + parola);
 
         if(round < max_round) {
-            punteggio++;
+            round++;
             new Reader();
             frame.dispose();
             frame = new Frame();
         }
-        else
+        else {
+            frame.dispose();
             new Risultati();
+        }
     }
 
     private static boolean checkParola(String p) {

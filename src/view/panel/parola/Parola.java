@@ -52,16 +52,11 @@ public class Parola extends JPanel implements ActionListener {
             for (JButton b : arrParola)
                 if (b == actionEvent.getSource()) {
                     b.setEnabled(false);
-                    b.setBackground(Color.gray);
                 }
         }
     }
 
     public static void rmButton() {
-        for(JButton b : arrParola)
-            if(b == lastButton) {
-//                arrParola.remove(b);
-                lastButton = null;
-            }
+        lastButton = null;
     }
 }

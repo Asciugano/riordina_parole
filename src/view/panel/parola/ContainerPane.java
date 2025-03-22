@@ -15,6 +15,8 @@ public class ContainerPane extends JPanel implements ActionListener {
 
     public static String parola = "";
 
+    private JButton previewB = null;
+
     public ContainerPane(int len) {
         setLayout(new GridLayout(1, len));
 
@@ -39,10 +41,30 @@ public class ContainerPane extends JPanel implements ActionListener {
         for(JButton b : container)
             if(b == actionEvent.getSource()) {
                 if(b.getText().equals(" ")) {
-                    b.setText(Parola.lastButton.getText());
-                    Parola.rmButton();
+                    if(previewB == null) {
+                        b.setText(Parola.lastButton.getText());
+                        Parola.rmButton();
+                    }
                     checkParola();
                 }
+                else if(Parola.lastButton == null) {
+                    Parola.lastButton = new JButton(b.getText());
+                    previewB = b;
+                }
+                else if(!b.getText().equals(" ")) {
+                    String temp = b.getText();
+                    b.setText(Parola.lastButton.getText());
+                    for(JButton b2 : container) {
+                        if(b2 == previewB) {
+                            b2.setText(temp);
+                            previewB = null;
+                            break;
+                        }
+                    }
+                    Parola.rmButton();
+                    previewB = null;
+                }
+                break;
             }
     }
 
