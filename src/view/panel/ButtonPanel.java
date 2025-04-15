@@ -1,5 +1,6 @@
 package view.panel;
 
+import main.Main;
 import view.Frame;
 
 import javax.swing.*;
@@ -21,6 +22,7 @@ public class ButtonPanel extends JPanel {
             f.changeSoluzione();
         });
 
+        add(Main.labelTempo);
         add(audio);
         add(soluzione);
     }

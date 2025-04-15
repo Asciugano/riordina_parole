@@ -19,7 +19,7 @@ public class Frame extends JFrame {
 
         buttonPanel = new ButtonPanel(this);
         soluzione = new JLabel(Main.parola);
-        gamePanel = new GamePanel(Main.img, Main.parola);
+        gamePanel = new GamePanel();
 
         // Centrare la label e aumentare il fontSize e la finestra per piú leggibilitá
         soluzione.setHorizontalAlignment(SwingConstants.CENTER);
@@ -28,6 +28,8 @@ public class Frame extends JFrame {
         soluzione.setFont(new Font(f.getName(), f.getStyle(), 17));
 
         changeSoluzione();
+
+        gamePanel.setMaximumSize(new Dimension(getWidth(), 10));
 
         add(soluzione, BorderLayout.SOUTH);
         add(buttonPanel, BorderLayout.NORTH);

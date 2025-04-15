@@ -1,149 +1,149 @@
-MACCHININE,
-ORSETTO,
-CUBI,
-PUZLE,
-CAMION,
-TRICICLO,
-CUCINETTA,
-ROBOT,
-SCIVOLO,
-PALLONCINO,
-PALLONE,
-CORDA,
-YOYO,
-PONGO,
-ALTALENA,
-ANGURIA,
-MELA,
-CASTAGNE,
-PERA,
-ARANCIA,
-CILIEGE,
-UVA,
-FICHI,
-BANANA,
-NOCE,
-FRAGOLE,
-KIWI,
-MANDARINO,
-ANANAS,
-NOCCIOLE,
-MELONE,
-PESCA,
-LAMPONI,
-MORE,
-PRUGNA,
-LIMONE,
-ALBICOCCA,
-COLLA,
-FOGLIO,
-FORBICI,
-LAVAGNA,
-MATITA,
-GOMMA,
-ZAINO,
-QUADERNO,
-PENNA,
-EVIDENZIATORI,
-SEDIA,
-BANCO,
-LIBRO,
-PASTELLI,
-PENNELLO,
-COCCINELLA,
-GATTO,
-CIGNO,
-ELEFANTE,
-CANE,
-DINOSAURO,
-UCCELLO,
-PESCE,
-COCCODRILLO,
-CAVALLO,
-FARFALLA,
-LUMACA,
-AQUILA,
-GORILLA,
-KOALA,
-CONIGLIO,
-GIRAFFA,
-CAMALEONTE,
-IPPOPOTAMO,
-MUCCA,
-MAIALE,
-FENICOTTEROM
-FORMICA,
-ZEBRA, ASINO,
-GALLINA,
-PAVONE,
-RICCIO,
-CRICETO,
-GRILLO,
-SERPENTE,
-APE,
-DELFINO,
-RANA,
-TARTARUGA,
-GUFO,
-CAMMELLO,
-CORVO,
-CAPRA,
-PIPISTRELLO,
-SCIMMIA,
-ANATRA,
-CANGURO,
-GRANCHIO,
-SCOIATTOLO,
-TIGRE,
-PECORA,
-ORSO,
-LEONE,
-GOMMONE,
-BARCA,
-AUTOBUS,
-FURGONE,
-TIR,
-CARAVAN,
-GONDOLA,
-MOTO,
-MACCHINA,
-AMBULANZA,
-TRENO,
-ELICCOTTERO,
-AEREO,
-TRATTORE,
-TRAM,
-VELIERO,
-MONGOLFIERA,
-BICICLETTA,
-POMPIERI,
-CROCIERA,
-MONOPATTINO,
-CINTURA,
-OCCHILI,
-OROLOGIO,
-PANTALONI,
-PANTALONCINI,
-TUTA,
-VESTITO,
-ACCAPPATOIO,
-MAGLIONE,
-GIUBBOTTO,
-FELPA,
-GONNA,
-SCIARPA,
-CAMICIA,
-CAPPELLO,
-CIABATTE,
-MAGLIETTA,
-GUANTI,
-MUTANDE,
-SCARPONI,
-SANDALI,
-CALZE,
-SCARPE,
-GIACCA,
-INFRADITO,
-BORSA,
-BRACCIALE,
-ZIP,
+MACCHININE, img/macchinine.jpg
+ORSETTO, img/orsetto.jpg
+CUBO, img/cubo.jpg
+PUZLE, img/puzle.jpg
+CAMION, img/camion.jpg
+TRICICLO, img/triciclo.jpg
+CUCINA, img/cucina.jpg
+ROBOT, img/robot.jpg
+SCIVOLO, img/scivolo.jpg
+PALLONCINO, img/palloncino.jpg
+PALLONE, img/pallone.jpg
+CORDA, img/corda.jpg
+YOYO, img/yoyo.jpg
+PONGO, img/pongo.jpg
+ALTALENA, img/altalena.jpg
+ANGURIA, img/angura.jpg
+MELA, img/mela.jpg
+CASTAGNE, img/castagne.jpg
+PERA, img/pera.jpg
+ARANCIA, img/arancia.jpg
+CILIEGE, img/ciliegie.jpg
+UVA, img/uva.jpg
+FICHI, img/fichi.jpg
+BANANA, img/banana.jpg
+NOCE, img/noce.jpg
+FRAGOLE, img/fragole.jpg
+KIWI, img/kiwi.jpg
+MANDARINO, img/mandarino.jpg
+ANANAS, img/ananas.jpg
+NOCCIOLE, img/nocciole.jpg
+MELONE, img/melone.jpg
+PESCA, img/pesca.jpg
+LAMPONI, img/lsmponi.jpg
+MORE, img/more.jpg
+PRUGNA, img/prugna.jpg
+LIMONE, img/limone.jpg
+ALBICOCCA, img/albicocca.jpg
+COLLA, img/colla.jpg
+FOGLIO, img/foglio.jpg
+FORBICI, img/forbici.jpg
+LAVAGNA, img/lavagna.jpg
+MATITA, img/matita.jpg
+GOMMA, img/gomma.jpg
+ZAINO, img/zaino.jpg
+QUADERNO, img/quaderno.jpg
+PENNA, img/penna.jpg
+EVIDENZIATORE, img/evidenziatore.jpg
+SEDIA, img/sedia.jpg
+BANCO, img/banco.jpg
+LIBRO, img/libro.jpg
+PASTELLI, img/pastelli.jpg
+PENNELLO, img/pennello.jpg
+COCCINELLA, img/coccinella.jpg
+GATTO, img/gatto.jpg
+CIGNO, img/cigno.jpg
+ELEFANTE, img/elefante.jpg
+CANE, img/cane.jpg
+DINOSAURO, img/dinosauro.jpg
+UCCELLO, img/uccello.jpg
+PESCE, img/pesce.jpg
+COCCODRILLO, img/coccodrillo.jpg
+CAVALLO, img/cavallo.jpg
+FARFALLA, img/farfalla.jpg
+LUMACA, img/lumaca.jpg
+AQUILA, img/aquila.jpg
+GORILLA, img/gorilla.jpg
+KOALA, img/koala.jpg
+CONIGLIO, img/coniglio.jpg
+GIRAFFA, img/giraffa.jpg
+CAMALEONTE, img/camaleonte.jpg
+IPPOPOTAMO, img/ippopotamo.jpg
+MUCCA, img/mucca.jpg
+MAIALE, img/maiale.jpg
+FENICOTTERO, img/fenicottero.jpg
+FORMICA, img/formica.jpg
+ZEBRA, img/zebra.jpg
+ASINO, img/asino.jpg
+GALLINA, img/gallina.jpg
+PAVONE, img/pavone.jpg
+RICCIO, img/riccio.jpg
+CRICETO, img/criceto.jpg
+GRILLO, img/grillo.jpg
+SERPENTE, img/serpente.jpg
+APE, img/ape.jpg
+DELFINO, img/delfino.jpg
+RANA, img/rana.jpg
+TARTARUGA, img/tartaruga.jpg
+GUFO, img/gufo.jpg
+CAMMELLO, img/cammello.jpg
+CORVO, img/corvo.jpg
+CAPRA, img/capra.jpg
+PIPISTRELLO, img/pipistrello.jpg
+SCIMMIA, img/scimmia.jpg
+ANATRA, img/anatra.jpg
+CANGURO, img/canguro.jpg
+GRANCHIO, img/granchio.jpg
+SCOIATTOLO, img/scoiattolo.jpg
+TIGRE, img/tigre.jpg
+PECORA, img/pecora.jpg
+ORSO, img/orso.jpg
+LEONE, img/leone.jpg
+GOMMONE, img/gommone.jpg
+BARCA, img/barca.jpg
+AUTOBUS, img/autobus.jpg
+FURGONE, img/furgone.jpg
+CARAVAN, img/caravan.jpg
+GONDOLA, img/gondola.jpg
+MOTO, img/moto.jpg
+MACCHINA, img/macchina.jpg
+AMBULANZA, img/ambulanza.jpg
+TRENO, img/treno.jpg
+ELICCOTTERO, img/elicottero.jpg
+AEREO, img/aereo.jpg
+TRATTORE, img/trattore.jpg
+TRAM, img/tram.jpg
+VELIERO, img/veliero.jpg
+MONGOLFIERA, img/mongolfiera.jpg
+BICICLETTA, img/bicicletta.jpg
+POMPIERI, img/pompieri.jpg
+CROCIERA, img/crociera.jpg
+MONOPATTINO, img/monopattino.jpg
+CINTURA, img/cintura.jpg
+OCCHILI, img/occhiali.jpg
+OROLOGIO, img/orologio.jpg
+PANTALONI, img/pantaloni.jpg
+PANTALONCINI, img/pantaloncini.jpg
+TUTA, img/tuta.jpg
+VESTITO, img/vestito.jpg
+ACCAPPATOIO, img/accappatoio.jpg
+MAGLIONE, img/maglione.jpg
+GIUBBOTTO, img/giubbotto.jpg
+FELPA, img/felpa.jpg
+GONNA, img/gonna.jpg
+SCIARPA, img/sciarpa.jpg
+CAMICIA, img/camicia.jpg
+CAPPELLO, img/cappello.jpg
+CIABATTE, img/ciabatte.jpg
+MAGLIETTA, img/maglietta.jpg
+GUANTI, img/guanti.jpg
+MUTANDE, img/mutande.jpg
+SCARPONI, img/scarponi.jpg
+SANDALI, img/sandali.jpg
+CALZE, img/calze.jpg
+SCARPE, img/scarpe.jpg
+GIACCA, img/giacca.jpg
+INFRADITO, img/infradito.jpg
+BORSA, img/borsa.jpg
+BRACCIALE, img/bracciale.jpg
+ZIP, img/zip.jpg

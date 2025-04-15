@@ -21,8 +21,6 @@ public class Parola extends JPanel implements ActionListener {
         this.parola = parola;
         arrParola = new ArrayList<JButton>(0);
         getArr();
-
-        setBorder(BorderFactory.createLineBorder(Color.ORANGE, 2, true));
     }
 
     private String shuffleParola() {

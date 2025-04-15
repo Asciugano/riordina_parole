@@ -15,6 +15,7 @@ public class Risultati extends JFrame {
         setLayout(new BorderLayout());
         grid = new Griglia();
         setLocationRelativeTo(null);
+        messaggio.setHorizontalAlignment(SwingConstants.CENTER);
         add(messaggio,BorderLayout.NORTH);
         add(restart,BorderLayout.SOUTH);
         add(grid, BorderLayout.CENTER);

@@ -13,8 +13,13 @@ public class Griglia extends JPanel{
     public Griglia(){
         pt = new JLabel(String.valueOf(Main.punteggio));
         setLayout(new GridLayout(2,2));
+        pt.setHorizontalAlignment(SwingConstants.CENTER);
+        pt.setVerticalAlignment(SwingConstants.TOP);
+        punteggio.setHorizontalAlignment(SwingConstants.CENTER);
+        tempo.setHorizontalAlignment(SwingConstants.CENTER);
         add(punteggio);
         add(tempo);
         add(pt);
+        add(Main.labelTempo);
     }
 }

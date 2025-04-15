@@ -23,9 +23,6 @@ public class ContainerPane extends JPanel implements ActionListener {
         this.len = len;
         container = new ArrayList<>(0);
         getArr();
-
-        setBorder(BorderFactory.createLineBorder(Color.ORANGE, 2, true));
-
     }
 
     private void getArr() {

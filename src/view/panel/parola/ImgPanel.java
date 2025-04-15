@@ -1,5 +1,7 @@
 package view.panel.parola;
 
+import main.Main;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -7,11 +9,11 @@ public class ImgPanel extends JPanel {
 
     private JLabel img;
 
-    public ImgPanel(String path) {
+    public ImgPanel() {
         setLayout(new GridBagLayout());
 
-        if(path != null)
-            img = new JLabel(new ImageIcon(path));
+        if(Main.img != null)
+            img = new JLabel(Main.img);
         else
             img = new JLabel("IMG not found");
 

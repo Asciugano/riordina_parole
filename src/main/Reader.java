@@ -1,5 +1,7 @@
 package main;
 
+import javax.swing.*;
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -37,10 +39,11 @@ public class Reader {
         String temp = "";
         if(br == null)
             return null;
-        for(int i = 1; i <= 149; i++) {
-            temp = br.readLine();
+        int i = 0;
+        while((temp = br.readLine()) != null) {
             if(i == lineNum)
                 break;
+            i++;
         }
         return temp;
     }
@@ -49,7 +52,9 @@ public class Reader {
         if(line != null) {
             String[] arr = line.split(",");
             Main.parola = arr[0];
-            Main.img = arr[1];
+            ImageIcon img = new ImageIcon(path + arr[1].strip());
+            Image scaledImage = img.getImage().getScaledInstance((int) (img.getIconWidth() * 0.15), (int) (img.getIconHeight() * 0.15), Image.SCALE_SMOOTH);
+            Main.img = new ImageIcon(scaledImage);
         }
     }
 
